@@ -1,0 +1,15 @@
+header{
+    background-color: rgb(37, 0, 105);
+    justify-content: space-between;
+    flex-wrap:  wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100000;
+}
+header .logo a{
+
+    color: rgba(248, 251, 252, 0.74);
+}
