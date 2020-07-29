@@ -37,4 +37,4 @@ jobs:
     - name: installing surge
       run: npm install --g surge
     - name: deploy on surge
-      run: surge./build http://project4b_fahadbrohi.surge.sh/ --token{{secrets.PROJEC4B}}
+      run: surge ./build http://project4b_fahadbrohi.surge.sh/ --token{{secrets.PROJEC4B}}
